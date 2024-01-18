@@ -1,0 +1,14 @@
+div{
+    /* The currentColor keyword for the color value, which means that the border will have the value of the respective div's color property */
+    border: 3px solid currentColor;
+  }
+  
+  /* This div will have green borders, because its color value is green. */
+  #div1{
+    color: green;
+  }
+  
+  /* This div will have blue borders, because its color value is blue. */
+  #div2{
+    color: blue;
+  }
